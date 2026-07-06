@@ -177,7 +177,12 @@
     padding: 0 8vw;
     font-weight: 600;
     line-height: 1.35;
+    cursor: pointer;
     transition: opacity 0.45s ease, filter 0.45s ease, transform 0.45s ease;
+  }
+
+  .lyric-line:hover:not(.active) {
+    opacity: 0.75 !important;
   }
 
   .lyric-line .word { color: var(--dim); transition: color 0.15s ease; }
@@ -222,7 +227,7 @@
     <div class="btn-col">
       <button id="loadBtn" onclick="loadFromTextarea()">Load Script</button>
       <button onclick="toggleControls()">Hide panel (C)</button>
-      <div id="status">Space: play/pause &middot; ↑/↓: speed &middot; F: fullscreen &middot; C: toggle panel</div>
+      <div id="status">Space: play/pause &middot; ↑/↓: speed &middot; ←/→: jump line &middot; click any line: jump there &middot; F: fullscreen &middot; C: toggle panel</div>
     </div>
   </div>
 
@@ -235,6 +240,5 @@
     <div id="progress"></div>
   </div>
 
-  <script src="./script.js"></script>
 </body>
 </html>
