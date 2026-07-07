@@ -1,13 +1,68 @@
 // Paste / edit your script here. This is the default source text.
-const script = `Are you looking for a reliable solar backup system? Let me introduce you to the MECO 1kw/500w solar generator going for just 305,000, paired with a 410watt panel going for 380,000.
+const script = `Welcome.
 
-This all in one solar generator is easy to use, it provides clean, quiet power for your everyday needs. The 410w solar panel helps recharge the system using sunlight, reducing your dependence on the grid.
+This is your lyrics-style teleprompter.
 
-With this MECO 1kw/500w solar generator you can power your standing fan or table fan, laptop, desk computer, small refrigerator, depending on their power requirements. IT CAN POWER YOUR HOME APPLIANCES as long as it's not more than 500w.
+Instead of reading one giant wall of text,
+you read one thought at a time.
 
-I honestly can't wait for your patronage...
+Each word is highlighted as you speak,
+making it easier to keep your place.
 
-Bye guys`;
+Use the Space bar to play or pause.
+
+Press the Right Arrow
+to jump to the next line.
+
+Press the Left Arrow
+to go back instantly.
+
+Made a mistake?
+
+Just tap any visible line,
+and continue from there.
+
+Need more time?
+
+Press the Up Arrow
+to slow things down.
+
+Feeling confident?
+
+Press the Down Arrow
+to speed things up.
+
+The current line stays in the center.
+
+Previous lines fade above.
+
+Upcoming lines wait below.
+
+Just like reading song lyrics.
+
+Long sentences are automatically split
+into comfortable reading chunks.
+
+Numbers like 305,000
+stay together.
+
+Times like 3:45
+stay together too.
+
+No scrolling.
+
+No distractions.
+
+Just you,
+your script,
+and a smooth recording experience.
+
+When you're ready,
+paste your own script,
+press play,
+and start creating.
+
+Happy recording!`;
 
 // Config
 const MAX_WORDS_PER_LINE = 8;      // comfortable chunk size on screen
